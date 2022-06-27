@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --preto-principal: #292929;
+  --vermelho-principal: #DA2535;
+  --branco-principal: #FBFBFB;
+  --cinza-destaque: #F3F3F3;
+  --cinza-descricao: #616161; 
+
+  --fonte-montserrat: 'Montserrat', sans-serif;
+  --fonte-inter: 'Inter', sans-serif;
+  --fonte-poppins: 'Poppins', sans-serif;
+  --fonte-roboto: 'Roboto', sans-serif;
+}
+
+.mobile-item {
+  display: none;
+}
+
+body {
+  padding: 0 13vw;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.logo-foodjp {
+  font-family: var(--fonte-montserrat);
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 49px;
+}
+
+.logo-foodjp b {
+  color: var(--vermelho-principal);
+}
+
+.titulo-de-secao {
+  font-family: var(--fonte-montserrat);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 59px;
+  margin-bottom: 1em;
+  color: var(--preto-principal);
+}
+
+
+@media screen and (max-width: 1430px) {
+
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .mobile-item {
+  display: block;
+  }
+  
+  .desktop-item {
+    display: none;
+  }
+
+  .titulo-de-secao {
+    margin-top: 2em;
+    font-size: 32px;
+  }
+  
+}

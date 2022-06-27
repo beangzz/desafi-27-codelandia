@@ -1,0 +1,93 @@
+.mais-populares {
+  text-align: center;
+}
+
+.lista-populares {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista-populares li {
+  list-style: none;
+  min-width: 33.3%;
+  padding: 1em;
+  text-align: center;
+}
+
+.lista-populares li img {
+  width: 246px;
+  height: 245px;
+}
+
+.texto-mais-populares {
+  background-color: var(--cinza-destaque);
+  z-index: -1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 32px;
+  position: relative;
+  bottom: 120px;
+  height: 350px;
+  width: auto;
+  padding: 0 1em 2em 1em;
+}
+
+.texto-mais-populares h3 {
+  color: var(--preto-principal);
+  font-family: var(--fonte-montserrat);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 39px;
+  margin-bottom: 1rem;
+}
+
+.populares-descricao {
+  color: var(--cinza-descricao);
+  font-family: var(--fonte-inter);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 1rem;
+}
+
+
+.populares-valor {
+  color: var(--preto-principal);
+  font-family: var(--fonte-montserrat);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+
+@media screen and (max-width: 1430px) {
+
+  .mais-populares {
+    display: block;
+  }
+
+  .lista-populares {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .lista-populares li {
+    width: 100%;
+    min-width: 400px;
+    min-height: 325px;
+    padding: 0;
+  }
+  
+  .texto-mais-populares {
+    height: 350px;
+  }
+
+  .lista-populares li img {
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+}

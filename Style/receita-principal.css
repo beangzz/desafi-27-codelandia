@@ -1,0 +1,94 @@
+.container-sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em 0;
+  height: 100vh;
+}
+
+.receita-texto {
+  width: 40%;
+}
+
+.receita-principal-titulo {
+  font-family: var(--fonte-montserrat);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 50px;
+  color: var(--preto-principal);
+  margin-bottom: 1.5rem;
+}
+
+.receita-principal-descricao {
+  font-family: var(--fonte-inter);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: var(--preto-principal);
+  margin-bottom: 2rem;
+}
+
+.receita-texto button {
+  background: var(--vermelho-principal);
+  color: var(--branco-principal);
+  font-family: var(--fonte-inter);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  border: none;
+  border-radius: 10px;
+  padding: .5em 4em;
+  margin-top: .5em;
+}
+
+.receita-texto a {
+  color: var(--vermelho-principal);
+  font-family: var(--fonte-inter);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  margin-top: .5em;
+}
+
+#img-sushi {
+  width: 350px;
+}
+
+#img-segurando-prato {
+  width: 550px;
+}
+
+
+@media screen and (max-width: 1430px) {
+
+  .container-sobre {
+    flex-direction: column;
+    padding: 2rem 0;
+    height: auto;
+  }
+
+  .receita-texto {
+    width: 100%;
+  }
+  
+  .receita-principal-titulo {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .receita-texto button {
+    width: 100%;
+  }
+
+  .sobre-tradicional {
+     text-align: center;
+  }
+  
+  #img-segurando-prato {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  
+}

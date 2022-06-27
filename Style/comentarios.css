@@ -1,0 +1,72 @@
+.comentarios-div {
+  display: flex;
+  gap: 0 1em; 
+}
+
+
+.comentario {
+  background: var(--cinza-destaque);
+  width: 50%;
+  border-radius: 16px;
+  padding: 2em;
+}
+
+
+.comentario img {
+  margin-bottom: 1em;
+}
+
+.comentario-nome {
+  color: var(--preto-principal);
+  font-family: var(--fonte-montserrat);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 123%;
+  margin-bottom: 1rem;
+}
+
+.comentario-descricao {
+  color: var(--cinza-descricao);
+  font-family: var(--fonte-inter);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%; 
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.comentario-avaliacao-estrelas {
+  color: var(--vermelho-principal);
+}
+
+.header-logo {
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1430px) {
+
+  .comentarios {
+    text-align: center;
+  }
+
+  .comentarios-div {
+    display: block;
+  }
+  
+  .comentario {
+    width: 100%;
+    min-width: 300px;
+    text-align: center;
+    margin: 1em 0;
+  }
+
+  .comentario-descricao {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .comentario-nome {
+    font-size: 18px;
+  }
+
+}

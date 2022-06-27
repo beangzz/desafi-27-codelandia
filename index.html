@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>FoodJP</title>  
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/197/197604.png">
+
+  <link rel="stylesheet" href="./Style/style.css">
+  <link rel="stylesheet" href="./Style/header.css">
+
+  <link rel="stylesheet" href="./Style/receita-principal.css">
+  <link rel="stylesheet" href="./Style/mais-populares.css">
+  <link rel="stylesheet" href="./Style/comentarios.css">
+  <link rel="stylesheet" href="./Style/localizacao.css">
+
+  <link rel="stylesheet" href="./Style/footer.css">
+</head>
+    
+<body>
+  <header>
+    <h2 class="logo-foodjp">Food<b>JP</b></h2>
+
+    <nav>
+      <ul class="lista-navegacao">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="#mais-populares">Cardápio</a></li>
+        <li><a href="/">Sobre</a></li>
+      </ul>
+    </nav>
+
+    <button class="desktop-item botao-entrar">Entrar</button>
+
+    <img src="./images/menu-hamburguer.png" id="button-menu-abrir" alt="menu" class="mobile-item"/>
+  </header>
+
+  <main>
+    <section class="receita-principal">
+
+        <div class="container-sobre">
+          <div class="receita-texto">
+            <h2 class="receita-principal-titulo">Comida Oriental</h2>
+            <p class="receita-principal-descricao">A culinária Japonesa é bastante equilibrada, sendo muito rica em peixes (ômega 3), vegetais, massas e ingredientes frescos.</p>
+            <button>Cardápio</button>
+          </div>
+          <img id="img-sushi" class="desktop-item" src="./images/sushi-receita-principal.png" />
+        </div>
+      
+        <div  class="container-sobre sobre-tradicional">
+          <img id="img-segurando-prato" src="./images/img segurando prato.png" alt="">
+          <div class="receita-texto">
+            <h2 class="receita-principal-titulo">Feita de forma Tradicional</h2>
+            <p class="receita-principal-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a>Ler mais sobre o modo de preparo</a>
+          </div>
+        </div>
+      
+    </section>
+
+    <section class="mais-populares">
+      <h2 class="titulo-de-secao">Mais populares</h2>
+      
+      <ul class="lista-populares">
+        
+        <li>
+          <img src="./images/ramen-de-frango.png" alt="">
+          <div class="texto-mais-populares">
+            <h3>Ramen de Frango</h3>
+            <p class="populares-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="populares-valor">R$ 30</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="./images/ramen-apimentado.png" alt="">
+          <div class="texto-mais-populares">
+            <h3>Ramen Apimentado</h3>
+            <p class="populares-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="populares-valor">R$ 30</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="./images/ramen-tradicional.png" alt="">
+          <div class="texto-mais-populares">
+            <h3>Ramen Tradicional</h3>
+            <p class="populares-descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="populares-valor">R$ 30</p>
+          </div>
+        </li>
+
+      </ul>
+
+    </section>
+
+    <section class="comentarios">
+      <h1 class="titulo-de-secao">Comentarios</h1>
+      
+      <div class="comentarios-div">
+        
+        <div class="comentario">
+          <img src="./images/Daniele-icon.png" alt="">
+          <h3 class="comentario-nome">Daniele Almeida</h3>
+          <p class="comentario-descricao">Ótimo serviço! Encantada com a qualidade dos pratos.</p>
+          
+          <div class="comentario-avaliacao-estrelas">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+        </div>
+
+        <div class="comentario">
+          <img src="./images/Ricardo-icon.png" alt="">
+          <h3 class="comentario-nome">Ricardo França</h3>
+          <p class="comentario-descricao">Não é apenas a comida excelente, o serviço torna a experiência especial.</p>
+          
+          <div class="comentario-avaliacao-estrelas">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="localizacao">
+
+      <h1 class="titulo-de-secao">Localização</h1>
+      
+      <iframe class="loc-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31754469.957685128!2d-69.70215303128728!3d-13.701601080767281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1spt-BR!2sbr!4v1656090226717!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+      <div class="barra-pesquisa">
+        <div class="pesquisa-input">
+          <img src="./images/seach-map-pin.png" class="desktop-item" alt="">
+          <img src="./images/map-icon-mobile.png" class="mobile-item" alt="">
+          <input type="text" placeholder="Localização para entrega">
+        </div>
+
+        <button class="desktop-item botao-buscar">Buscar</button>
+        <button class="mobile-item botao-buscar"><img src="./images/search.png" alt=""></button>
+      
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <h2 class="logo-foodjp mobile-item">Food<b>JP</b></h2>
+    
+    <div class="footer-links">
+      <h2 class="logo-foodjp desktop-item">Food<b>JP</b></h2>
+      
+      <div class="coluna-footer">
+        <h3 class="footer-titulo">Contato</h3>
+        <p class="footer-item">+55 21 9999-9999</p>
+        <p class="footer-item">email@gmail.com</p>
+      </div>
+      
+      <div class="coluna-footer">
+        <h3 class="footer-titulo">Sobre nós</h3>
+        <p class="footer-item">Menu</p>
+        <p class="footer-item">Valores</p>
+        <p class="footer-item">Pagina principal</p>
+      </div>
+      
+      <div class="coluna-footer">
+        <h3 class="footer-titulo">Serviços</h3>
+        <p class="footer-item">Entrega</p>
+        <p class="footer-item">Retirada</p>
+      </div>
+      </div>
+  </footer>
+</body>
+
+<script src="./Script/menu-switch.js"></script>
+</html>
