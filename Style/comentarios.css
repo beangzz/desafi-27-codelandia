@@ -3,14 +3,12 @@
   gap: 0 1em; 
 }
 
-
 .comentario {
   background: var(--cinza-destaque);
   width: 50%;
   border-radius: 16px;
   padding: 2em;
 }
-
 
 .comentario img {
   margin-bottom: 1em;

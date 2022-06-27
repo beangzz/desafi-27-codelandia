@@ -10,16 +10,12 @@
   --branco-principal: #FBFBFB;
   --cinza-destaque: #F3F3F3;
   --cinza-descricao: #616161; 
-
   --fonte-montserrat: 'Montserrat', sans-serif;
   --fonte-inter: 'Inter', sans-serif;
   --fonte-poppins: 'Poppins', sans-serif;
   --fonte-roboto: 'Roboto', sans-serif;
 }
 
-.mobile-item {
-  display: none;
-}
 
 body {
   padding: 0 13vw;
@@ -31,6 +27,9 @@ main section {
   justify-content: center;
 }
 
+.mobile-item {
+  display: none;
+}
 
 .logo-foodjp {
   font-family: var(--fonte-montserrat);

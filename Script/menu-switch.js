@@ -2,16 +2,12 @@ const abrirMenu = document.getElementById("button-menu-abrir");
 const nav = document.querySelector(".lista-navegacao");
 const navItens = document.querySelectorAll(".lista-navegacao li");
 
-
-
 abrirMenu.addEventListener('click', ativarBotao);
-
 
 function ativarBotao(){
   nav.classList.toggle("nav-active");
   animarItensLista();
 }
-
 
 function animarItensLista(){
   navItens.forEach((link,index) => {
